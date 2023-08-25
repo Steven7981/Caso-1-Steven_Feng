@@ -7,16 +7,19 @@
     
 /*
     Metodos a usar:
-        - insertarPosicion(noticia, posicion):
+        - insertarNoticia(noticia, posicion):
           Recibe una noticia y una posicion, inserta la noticia en la posicion recibida
 
         - agregarNoticia(noticia):
           Agrega una noticia al final de la lista
 
-        - eliminarNoticia(int posicion):
+        - borrarNoticia(int posicion):
           Elimina la noticia de la posicion recibida
+        
+        - borrarNoticias(string palabra)
+          Recibe una palabra y borra todas aquellas noticias que contengan la palabra en el titulo
 
-        - eliminar(int noticia):
+        - borrar():
           Elimina la ultima noticia de la lista
         
         - mostrarNoticia(int posicion):
@@ -27,6 +30,9 @@
 
         - buscar(string palabra):
           Busca las noticias que contenga la palabra recibida
+        
+        - buscarNoticia(int posicion):
+          Busca la noticia con la posicion ingresada
         
 
         */
